@@ -1,23 +1,36 @@
 # Materials for Game theory / Reinforcement learning course
 
-Focus on computing.
-Active data collection. Experimentation, optimization.
+Current idea: Start with single-agent RL, then refresher on Game Theory, then multi-agent RL and the comparison of GT methods vs RL methods. Use Python / TensorFlow for computing.
 
-## Game Theory
+Complete course: http://www.wildml.com/2016/10/learning-reinforcement-learning/
 
-* Bierman & Fernandez
-
-* 
+based on Barto Sutton book and David Silver’s Reinforcement Learning Course.
+Pro: youtube videos with lectures.
 
 ## Reinforcement learning
 
 * [Sutton & Barto book](http://www.incompleteideas.net/book/RLbook2020.pdf).
 
-Includes exercises.
+Book examples in Python:
 
-https://github.com/ShangtongZhang/reinforcement-learning-an-introduction
+* https://github.com/ShangtongZhang/reinforcement-learning-an-introduction
+
+Book Exercises, also for Python.
+
+* https://github.com/dennybritz/reinforcement-learning
+
+## Game Theory
+
+* Bierman & Fernandez: GT with economic applications (But: out of print)
+
+* Hans Peters, speltheorie voor economen (Dutch)
+
+http://researchers-sbe.unimaas.nl/hanspeters/wp-content/uploads/sites/21/2014/02/Speltheorie.pdf
+
 
 ## Multi-agent reinforcement learning (MARL)
+
+https://medium.com/@vermashresth/craft-and-solve-multi-agent-problems-using-rllib-and-tensorforce-a3bd1bb6f556
 
 * Shoham & Leyton-Brown book 2009 Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations 
 
@@ -26,6 +39,8 @@ https://github.com/ShangtongZhang/reinforcement-learning-an-introduction
 ## Game theory AND reinforcement learning
 
 * A Unified Game-Theoretic Approach to Multiagent Reinforcement Learning (DeepMind)
+
+**Abstract**: To achieve general intelligence, agents must learn how to interact with others in a shared environment: this is the challenge of multiagent reinforcement learning (MARL). The simplest form is independent reinforcement learning (InRL), where each agent treats its experience as part of its (non-stationary) environment. In this paper, we first observe that policies learned using InRL can overfit to the other agents' policies during training, failing to sufficiently generalize during execution. We introduce a new metric, joint-policy correlation, to quantify this effect. We describe an algorithm for general MARL, based on approximate best responses to mixtures of policies generated using deep reinforcement learning, and empirical game-theoretic analysis to compute meta-strategies for policy selection. The algorithm generalizes previous ones such as InRL, iterated best response, double oracle, and fictitious play. Then, we present a scalable implementation which reduces the memory requirement using decoupled meta-solvers. Finally, we demonstrate the generality of the resulting policies in two partially observable settings: gridworld coordination games and poker. 
 
 * Delft: review 2010 on Multi-agent RL
 
@@ -49,18 +64,32 @@ https://github.com/ShangtongZhang/reinforcement-learning-an-introduction
 
 * Reinforce: MC Policy gradient 
 
-## Computing / Software frameworks
+## Computing: General RL frameworks
+
+[A Comparison od RL frameworks: Dopamine, RLLib, Keras-RL, Coah, TRFL, Tensorforce, Coach and more](https://winderresearch.com/a-comparison-of-reinforcement-learning-frameworks-dopamine-rllib-keras-rl-coach-trfl-tensorforce-coach-and-more/)
+
+https://medium.com/@vermashresth/a-primer-on-deep-reinforcement-learning-frameworks-part-1-6c9ab6a0f555
 
 * OpenAI Gym
 
-* [A Comparison od RL frameworks: Dopamine, RLLib, Keras-RL, Coah, TRFL, Tensorforce, Coach and more](https://winderresearch.com/a-comparison-of-reinforcement-learning-frameworks-dopamine-rllib-keras-rl-coach-trfl-tensorforce-coach-and-more/)
+https://arxiv.org/pdf/1606.01540.pdf
+
+* RLlib
+
+https://bair.berkeley.edu/blog/2018/12/12/rllib/
+
+RLlib  is  an  open-source  libraryfor reinforcement learning, which offers a dedicated platform for  multi-agent  reinforcement  learning  problems  as  well  as computational scalability.
 
 * TF-agents
 
+* Unity ML Agents
 
-#### Tutorials
+https://github.com/Unity-Technologies/ml-agents
 
-#### Environments
+Juliani, A., Berges, V., Teng, E., Cohen, A., Harper, J., Elion, C., Goy, C., Gao, Y., Henry, H., Mattar, M., Lange, D. (2020). Unity: A General Platform for Intelligent Agents. arXiv preprint arXiv:1809.02627. https://github.com/Unity-Technologies/ml-agents.
+
+
+### Computing: Environments
 
 * Mastering the Game of Sungka from Random Play (Mancala variant)
 
@@ -71,10 +100,14 @@ https://github.com/baudm/sungka-ai
 high opponent scores
 3) Fast-converging and stable training algorithm
 
-* Pommerman
+* [Pommerman](https://www.pommerman.com)
 
-* Fantasy Football AI (FFAI)
+The game is Pommerman, a variant of the famous Bomberman. There are four agents, power ups, and bombs galore in three modes. In FFA, enter an agent and be the last hero standing.
 
-* AI for Game development (Modl.ai , Unity)
+* [Fantasy Football AI](https://github.com/njustesen/ffai) (FFAI, OpenAI Gym environment)
+
+Blood Bowl: A New Board Game Challenge and Competition for AI.
+
+
 
 
