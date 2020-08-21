@@ -19,6 +19,11 @@ Book Exercises, also for Python.
 
 * https://github.com/dennybritz/reinforcement-learning
 
+
+* [Basic Reinforcement Learning (RL)](https://github.com/vmayoral/basic_reinforcement_learning)
+
+This repository aims to provide an introduction series to reinforcement learning (RL) by delivering a walkthough on how to code different RL techniques.
+
 ## Game Theory
 
 * Bierman & Fernandez: GT with economic applications (But: out of print)
@@ -27,12 +32,15 @@ Book Exercises, also for Python.
 
 http://researchers-sbe.unimaas.nl/hanspeters/wp-content/uploads/sites/21/2014/02/Speltheorie.pdf
 
+* https://github.com/Axelrod-Python/Axelrod
+
+The Axelrod library is an open source Python package that allows for reproducible game theoretic research into the Iterated Prisoner’s Dilemma.
 
 ## Multi-agent reinforcement learning (MARL)
 
 https://medium.com/@vermashresth/craft-and-solve-multi-agent-problems-using-rllib-and-tensorforce-a3bd1bb6f556
 
-* Shoham & Leyton-Brown book 2009 Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations 
+* [Shoham & Leyton-Brown book 2009 Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations](http://www.masfoundations.org/mas.pdf)
 
 * Multi-agent actor-critic for mixed cooperative-competitive environments (openAI)
 
@@ -42,11 +50,7 @@ https://medium.com/@vermashresth/craft-and-solve-multi-agent-problems-using-rlli
 
 **Abstract**: To achieve general intelligence, agents must learn how to interact with others in a shared environment: this is the challenge of multiagent reinforcement learning (MARL). The simplest form is independent reinforcement learning (InRL), where each agent treats its experience as part of its (non-stationary) environment. In this paper, we first observe that policies learned using InRL can overfit to the other agents' policies during training, failing to sufficiently generalize during execution. We introduce a new metric, joint-policy correlation, to quantify this effect. We describe an algorithm for general MARL, based on approximate best responses to mixtures of policies generated using deep reinforcement learning, and empirical game-theoretic analysis to compute meta-strategies for policy selection. The algorithm generalizes previous ones such as InRL, iterated best response, double oracle, and fictitious play. Then, we present a scalable implementation which reduces the memory requirement using decoupled meta-solvers. Finally, we demonstrate the generality of the resulting policies in two partially observable settings: gridworld coordination games and poker. 
 
-* Delft: review 2010 on Multi-agent RL
-
-* [AI and games textbook](gameaibook.org)
-
-* Masfoundations.org
+* [Multi-agent Reinforcement Learning: an overview](http://www.dcsc.tudelft.nl/~bdeschutter/pub/rep/10_003.pdf)
 
 ## Algorithms
 
@@ -73,6 +77,11 @@ https://medium.com/@vermashresth/a-primer-on-deep-reinforcement-learning-framewo
 * OpenAI Gym
 
 https://arxiv.org/pdf/1606.01540.pdf
+
+* [OpenAI Baselines](https://github.com/openai/baselines)
+
+OpenAI Baselines is a set of high-quality implementations of reinforcement learning algorithms.
+
 
 * RLlib
 
@@ -108,6 +117,8 @@ The game is Pommerman, a variant of the famous Bomberman. There are four agents,
 
 Blood Bowl: A New Board Game Challenge and Competition for AI.
 
+[Deep Reinforcement Learning in Strategic Multi-Agent Games: the case of No-Press Diplomacy](https://pdfs.semanticscholar.org/51a6/1224d2c4ab9bfa36fa481f0c934fae15a36c.pdf)
 
+This appears an example on multi agent games in OpenAI gym.
 
 
