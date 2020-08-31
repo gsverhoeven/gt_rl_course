@@ -345,31 +345,7 @@ def play():
 
 if __name__ == '__main__':
     train(epochs=int(30e3))
+    compete(int(1e3))
+    play()
 
-# Check if all games layed by the AI players end up in a draw
- #   compete(int(1e3))
- #   play()
 
-"""
-# Exercises
-
-1. Run the code. It will train the AI player with 100.000 runs against itself.
-Then it checks wether all games where two AI players play will result in draws.
-Then it presents a game interface for a human player to play against the AI.
-
-2. Study the code. describe in words what the program does.
-
-3. Change the epsilon value in play() from 0 to 0.5. Play a few games against the AI.
-What do you observe?
-
-4. Re-train the AI for 30.000 epochs. Now change the step_size parameter to 0.5. 
-Note the winrates. Does it learn faster?
-0.05 0.02
-0.05 0.01
-
-4. Re-train the AI for 30.000 epochs. Keep the step_size parameter at 0.5. Change the epsilon for both
-players from 0.01 to 0.1.  Does it learn faster?
-
-0.22 0.11
-
-"""
