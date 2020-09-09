@@ -24,7 +24,12 @@ conda install spyder
 conda deactivate
 ```
 
-## Step 3 Run Spyder and start coding!
+## Step 3 install gym environments from Github
+
+PM Github repo clonen, proxies instellen, installeren env in venv
+
+
+## Step 4 Run Spyder and start coding!
 
 ```
 cd p:
