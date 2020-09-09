@@ -2,7 +2,7 @@
 
 ## Week 0: Python & Object Oriented Programming
 
-* Set up python, instructions are [here](setup_python.md)
+* Set up python, instructions are [here](week_0/setup_python.md)
 
 * [Python Numpy arrays](PM)
 
