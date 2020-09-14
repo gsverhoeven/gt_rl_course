@@ -32,20 +32,59 @@ https://campus.datacamp.com/courses/software-engineering-for-data-scientists-in-
 
 Bandits are MDP with just one state.
 Example: pick an advertisement to show, reward when clicked.
-Example: pick a price, reward is units sold in a market.
+Example: pick a market, reward is units sold in a market.
 
 * Read second chapter "Multi armed bandits" of Sutton & Barto
 
 * Exercise: work through the [OpenAI Gym tutorial](https://gym.openai.com/docs/)
 
 * Exercise: [Bandits_in_gym](week_2/bandits_gym.md) 
+Here we code up the Q-learning algorithm of p 32 in Sutton & Barto.
 
-## Week 3: Markov Decision Processes
+## Week 3: Markov Decision Processes (MDPs)
 
 * Read third chapter of Sutton & Barto
 
-* Optional: Watch [Lecture 2 of David Silver](https://www.youtube.com/watch?v=lfHX2hHRMVQ)
+* Watch [Lecture 2 of David Silver](https://www.youtube.com/watch?v=lfHX2hHRMVQ)
 
+* Gridworlds, Frozen Lake. Bellman Equation.
+episodic tasks vs cont tasks
 
+* Only theory?
 
+## Week 4: Dynamic Programming (DP)
 
+* Read fourth chapter of Sutton & Barto
+
+* Watch [Lecture 3 of David Silver](https://www.youtube.com/watch?v=Nd1-UUMVfz4)
+
+* Exercise: https://github.com/dennybritz/reinforcement-learning/tree/master/DP
+These use a GridWorld env, and set up the Gambler's ruin problem.
+
+## Week 5: Monte Carlo
+
+* Chapter 5
+
+* Black jack env.
+
+## Week 6: Temporal difference learning
+
+* Chapter 6
+
+* Cliff environment.
+
+[skip chapters 7 and 8]
+
+## Neural networks
+
+* Keras, tensorflow
+
+## Week 7: Function approximation
+
+* Need statistical learning here.
+
+* Chapters 9 and 10
+
+* Neural networks
+
+* Mountain Car
