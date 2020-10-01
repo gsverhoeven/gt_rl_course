@@ -1,21 +1,25 @@
 # Course outline
 
+## Week -1: Course outline
+
+Slides NL
+Getting Python / conda up and running
+
 ## Week 0: Programming with Python 
 
-* Set up python, instructions are [here](week_0/setup_python.md)
+Datacamp cursus:  Introduction to Python (including numpy)
+
+[Python for R users]((http://www.data-analysis-in-python.org/python_for_r.html))
 
 PM steal from (https://cs231n.github.io/setup-instructions/#working-locally-on-your-machine)
 
-* [Python Numpy arrays](PM)
 
-(http://www.data-analysis-in-python.org/python_for_r.html)
+* Object oriented programming a.k.a. Classes
 
 https://campus.datacamp.com/courses/software-engineering-for-data-scientists-in-python/utilizing-classes?ex=1
 
 * [Python Classes](https://www.datacamp.com/community/tutorials/python-oop-tutorial)
 
-* [self in Python classes](https://www.geeksforgeeks.org/self-in-python-class/)
-(zit ook in SE4DS)
 * [Python Inheritance](https://www.programiz.com/python-programming/inheritance)
 
 * Exercise: [Classes & Inheritance](week_0/oop_exercise.py)
