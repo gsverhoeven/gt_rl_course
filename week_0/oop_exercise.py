@@ -19,7 +19,7 @@ Exercise Classes & Inheritance.
     "memo_schrijven",  "videobellen" , "koffie halen".
     Tip: gebruik np.random.choice()
 4. Maak een class Datascientist, die erft van Beleidsmedewerker.
-De datascientist heeft een extra actie: coden(). Deze actie print een stukje python code.
+De datascientist heeft een extra method: coden(). Deze actie print een stukje python code.
 
 
 """
