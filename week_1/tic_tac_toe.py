@@ -331,7 +331,7 @@ def compete(turns):
 def play():
     while True:
         player1 = HumanPlayer()
-        player2 = Player(epsilon=0.5)
+        player2 = Player(epsilon=0.0)
         judger = Judger(player1, player2)
         player2.load_policy()
         winner = judger.play()
@@ -344,7 +344,7 @@ def play():
 
 
 if __name__ == '__main__':
-    train(epochs=int(30e3))
+    train(epochs=int(1e5))
     compete(int(1e3))
     play()
 
