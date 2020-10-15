@@ -7,18 +7,16 @@ Getting Python / conda up and running
 
 ## Week 0: Programming with Python 
 
-Datacamp cursus:  Introduction to Python (including numpy)
-
-[Python for R users]((http://www.data-analysis-in-python.org/python_for_r.html))
-
-PM steal from (https://cs231n.github.io/setup-instructions/#working-locally-on-your-machine)
-
+Datacamp cursus:  
+[Introduction to Python (including numpy)](https://learn.datacamp.com/courses/intro-to-python-for-data-science)
 
 * Object oriented programming a.k.a. Classes
 
-https://campus.datacamp.com/courses/software-engineering-for-data-scientists-in-python/utilizing-classes?ex=1
+Follow this tutorial:
 
 * [Python Classes](https://www.datacamp.com/community/tutorials/python-oop-tutorial)
+
+Extra info on Inheritance:
 
 * [Python Inheritance](https://www.programiz.com/python-programming/inheritance)
 
@@ -28,9 +26,12 @@ https://campus.datacamp.com/courses/software-engineering-for-data-scientists-in-
 
 * Read first chapter "Introduction" of Sutton & Barto
 
-* Optional: Watch [Lecture 1 of David Silver (1,5 hours)](https://www.youtube.com/watch?v=2pWv7GOvuf0)
+* [Datacamp tutorial Python Modules](https://www.datacamp.com/community/tutorials/modules-in-python)
 
 * Exercise: [Tic-tac-toe](week_1/exercise_ttt.md)
+
+* Optional: Watch [Lecture 1 of David Silver (1,5 hours)](https://www.youtube.com/watch?v=2pWv7GOvuf0)
+
 
 ## Week 2: Multi armed bandits
 
