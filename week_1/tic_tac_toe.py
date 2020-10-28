@@ -15,8 +15,8 @@ BOARD_ROWS = 3
 BOARD_COLS = 3
 BOARD_SIZE = BOARD_ROWS * BOARD_COLS
 
-#STEP_SIZE = 0.1
-STEP_SIZE = 0.5
+STEP_SIZE = 0.1
+#STEP_SIZE = 0.5
 
 class State:
     def __init__(self):
@@ -287,8 +287,8 @@ class HumanPlayer:
 
 
 def train(epochs, print_every_n=200):
-    player1 = Player(epsilon=0.1)
-    player2 = Player(epsilon=0.1)
+    player1 = Player(epsilon=0.01)
+    player2 = Player(epsilon=0.01)
     judger = Judger(player1, player2)
     player1_win = 0.0
     player2_win = 0.0
@@ -303,8 +303,8 @@ def train(epochs, print_every_n=200):
         player1.backup()
         player2.backup()
         judger.reset()
-    #player1.save_policy()
-    #player2.save_policy()
+    player1.save_policy()
+    player2.save_policy()
 
 
 def compete(turns):
