@@ -44,7 +44,7 @@ Example: pick a market, reward is units sold in a market.
 * Exercise: work through the [OpenAI Gym tutorial](https://gym.openai.com/docs/)
 
 * Exercise: [Bandits_in_gym](week_2/bandits_gym.md) 
-Here we code up the Q-learning algorithm of p 32 in Sutton & Barto.
+Here we code up the simple bandit algorithm of p 32 in Sutton & Barto, as well as the UCB variant.
 
 ## Week 3: Markov Decision Processes (MDPs)
 
