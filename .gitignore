@@ -7,3 +7,4 @@ papers/*
 *.bat
 *.lnk
 Thumbs.db
+/week_00/*.pptx
