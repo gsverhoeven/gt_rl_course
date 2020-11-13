@@ -50,12 +50,9 @@ Here we code up the simple bandit algorithm of p 32 in Sutton & Barto, as well a
 
 * Read third chapter of Sutton & Barto
 
-* Watch [Lecture 2 of David Silver](https://www.youtube.com/watch?v=lfHX2hHRMVQ)
+* Optional: Watch [Lecture 2 of David Silver](https://www.youtube.com/watch?v=lfHX2hHRMVQ)
 
-* Gridworlds, Frozen Lake. Bellman Equation.
-episodic tasks vs cont tasks
-
-* Only theory?
+* Selected Book Exercises Ch 3
 
 ## Week 4: Dynamic Programming (DP)
 

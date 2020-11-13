@@ -5,3 +5,6 @@ papers/*
 /week_min1/*
 *.bunlde
 *.bat
+*.lnk
+Thumbs.db
+/week_00/*.pptx
