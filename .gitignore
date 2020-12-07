@@ -9,3 +9,4 @@ papers/*
 Thumbs.db
 /week_00/*.pptx
 *.bin
+*/__pycache__/*
