@@ -60,8 +60,9 @@ Here we code up the simple bandit algorithm of p 32 in Sutton & Barto, as well a
 
 * Watch [Lecture 3 of David Silver](https://www.youtube.com/watch?v=Nd1-UUMVfz4)
 
-* Exercise: https://github.com/dennybritz/reinforcement-learning/tree/master/DP
-These use a GridWorld env, and set up the Gambler's ruin problem.
+* Exercise: Frozen Lake dynamic Programming Jupyter notebook.
+
+(Denny Britz github repo has the Gridworld and Gamblers Ruin envs from the book, no Car Rental found yet)
 
 ## Week 5: Monte Carlo
 

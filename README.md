@@ -2,7 +2,7 @@
 
 Current idea: Start with single-agent RL, then refresher on Game Theory, then multi-agent RL and the comparison of GT methods vs RL methods. Use Python / TensorFlow for computing.
 
-Complete course: http://www.wildml.com/2016/10/learning-reinforcement-learning/
+Complete course (Denny Britz): http://www.wildml.com/2016/10/learning-reinforcement-learning/
 
 based on Barto Sutton book and David Silver’s Reinforcement Learning Course.
 Pro: youtube videos with lectures.
@@ -19,10 +19,6 @@ Book Exercises, also for Python.
 
 * https://github.com/dennybritz/reinforcement-learning
 
-
-* [Basic Reinforcement Learning (RL)](https://github.com/vmayoral/basic_reinforcement_learning)
-
-This repository aims to provide an introduction series to reinforcement learning (RL) by delivering a walkthough on how to code different RL techniques.
 
 ## Game Theory
 
