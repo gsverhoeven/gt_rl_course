@@ -1,120 +1,98 @@
-# Materials for Game theory / Reinforcement learning course
+# Course outline
 
-Current idea: Start with single-agent RL, then refresher on Game Theory, then multi-agent RL and the comparison of GT methods vs RL methods. Use Python / TensorFlow for computing.
+## Week -1: Course outline
 
-Complete course (Denny Britz): http://www.wildml.com/2016/10/learning-reinforcement-learning/
+Slides NL
+Getting Python / conda virtual environment up and running
 
-based on Barto Sutton book and David Silver’s Reinforcement Learning Course.
-Pro: youtube videos with lectures.
+## Week 0: Programming with Python 
 
-## Reinforcement learning
+Datacamp cursus:
+[Introduction to Python (including numpy)](https://learn.datacamp.com/courses/intro-to-python-for-data-science)
 
-* [Sutton & Barto book](http://www.incompleteideas.net/book/RLbook2020.pdf).
+* Object oriented programming a.k.a. Classes
 
-Book examples in Python:
+Follow this tutorial:
 
-* https://github.com/ShangtongZhang/reinforcement-learning-an-introduction
+* [Python Classes](https://www.datacamp.com/community/tutorials/python-oop-tutorial)
 
-Book Exercises, also for Python.
+Extra info on Inheritance:
 
-* https://github.com/dennybritz/reinforcement-learning
+* [Python Inheritance](https://www.programiz.com/python-programming/inheritance)
 
+* Exercise: [Classes & Inheritance](week_0/oop_exercise.py)
 
-## Game Theory
+## Week 1: Introduction to RL
 
-* Bierman & Fernandez: GT with economic applications (But: out of print)
+* Read first chapter "Introduction" of Sutton & Barto
 
-* Hans Peters, speltheorie voor economen (Dutch)
+* [Datacamp tutorial Python Modules](https://www.datacamp.com/community/tutorials/modules-in-python)
 
-http://researchers-sbe.unimaas.nl/hanspeters/wp-content/uploads/sites/21/2014/02/Speltheorie.pdf
+* Exercise: [Tic-tac-toe](week_1/exercise_ttt.md)
 
-* https://github.com/Axelrod-Python/Axelrod
-
-The Axelrod library is an open source Python package that allows for reproducible game theoretic research into the Iterated Prisoner’s Dilemma.
-
-## Multi-agent reinforcement learning (MARL)
-
-https://medium.com/@vermashresth/craft-and-solve-multi-agent-problems-using-rllib-and-tensorforce-a3bd1bb6f556
-
-* [Shoham & Leyton-Brown book 2009 Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations](http://www.masfoundations.org/mas.pdf)
-
-* Multi-agent actor-critic for mixed cooperative-competitive environments (openAI)
-
-## Game theory AND reinforcement learning
-
-* A Unified Game-Theoretic Approach to Multiagent Reinforcement Learning (DeepMind)
-
-**Abstract**: To achieve general intelligence, agents must learn how to interact with others in a shared environment: this is the challenge of multiagent reinforcement learning (MARL). The simplest form is independent reinforcement learning (InRL), where each agent treats its experience as part of its (non-stationary) environment. In this paper, we first observe that policies learned using InRL can overfit to the other agents' policies during training, failing to sufficiently generalize during execution. We introduce a new metric, joint-policy correlation, to quantify this effect. We describe an algorithm for general MARL, based on approximate best responses to mixtures of policies generated using deep reinforcement learning, and empirical game-theoretic analysis to compute meta-strategies for policy selection. The algorithm generalizes previous ones such as InRL, iterated best response, double oracle, and fictitious play. Then, we present a scalable implementation which reduces the memory requirement using decoupled meta-solvers. Finally, we demonstrate the generality of the resulting policies in two partially observable settings: gridworld coordination games and poker. 
-
-* [Multi-agent Reinforcement Learning: an overview](http://www.dcsc.tudelft.nl/~bdeschutter/pub/rep/10_003.pdf)
-
-## Algorithms
-
-* Multi-armed bandits
-
-* Q-learning
-
-* TD-learning
-
-* Policy gradient
-
-* Deep Q-learning
-
-* Tree search, monte carlo tree search
-
-* Reinforce: MC Policy gradient 
-
-## Computing: General RL frameworks
-
-[A Comparison od RL frameworks: Dopamine, RLLib, Keras-RL, Coah, TRFL, Tensorforce, Coach and more](https://winderresearch.com/a-comparison-of-reinforcement-learning-frameworks-dopamine-rllib-keras-rl-coach-trfl-tensorforce-coach-and-more/)
-
-https://medium.com/@vermashresth/a-primer-on-deep-reinforcement-learning-frameworks-part-1-6c9ab6a0f555
-
-* OpenAI Gym
-
-https://arxiv.org/pdf/1606.01540.pdf
-
-* [OpenAI Baselines](https://github.com/openai/baselines)
-
-OpenAI Baselines is a set of high-quality implementations of reinforcement learning algorithms.
+* Optional: Watch [Lecture 1 of David Silver (1,5 hours)](https://www.youtube.com/watch?v=2pWv7GOvuf0)
 
 
-* RLlib
+## Week 2: Multi-armed bandits
 
-https://bair.berkeley.edu/blog/2018/12/12/rllib/
+Bandits are MDP with just one state.
+Example: pick an advertisement to show, reward when clicked.
+Example: pick a market, reward is units sold in a market.
 
-RLlib  is  an  open-source  libraryfor reinforcement learning, which offers a dedicated platform for  multi-agent  reinforcement  learning  problems  as  well  as computational scalability.
+* Read second chapter "Multi armed bandits" of Sutton & Barto
 
-* TF-agents
+* Exercise: work through the [OpenAI Gym tutorial](https://gym.openai.com/docs/)
 
-* Unity ML Agents
+* Exercise: [Bandits_in_gym](week_2/bandits_gym.md) 
+Here we code up the simple bandit algorithm of p 32 in Sutton & Barto, as well as the UCB variant.
 
-https://github.com/Unity-Technologies/ml-agents
+## Week 3: Theory: Markov Decision Processes (MDPs)
 
-Juliani, A., Berges, V., Teng, E., Cohen, A., Harper, J., Elion, C., Goy, C., Gao, Y., Henry, H., Mattar, M., Lange, D. (2020). Unity: A General Platform for Intelligent Agents. arXiv preprint arXiv:1809.02627. https://github.com/Unity-Technologies/ml-agents.
+* Read third chapter of Sutton & Barto
+
+* Optional: Watch [Lecture 2 of David Silver](https://www.youtube.com/watch?v=lfHX2hHRMVQ)
+
+* Selected Book Exercises Ch 3
+
+## Week 4: Dynamic Programming (DP)
+
+* Read fourth chapter of Sutton & Barto
+
+* Watch [Lecture 3 of David Silver](https://www.youtube.com/watch?v=Nd1-UUMVfz4)
+
+* Exercise: Frozen Lake dynamic Programming Jupyter notebook.
+
+(Denny Britz github repo has the Gridworld and Gamblers Ruin envs from the book, no Car Rental found yet)
+
+## Week 5: Monte Carlo
+
+* Chapter 5
+
+* Black jack env.
+
+## Week 6: Temporal difference learning
+
+* Chapter 6
+
+* Cliff environment.
+
+## Week 7: Economic application: algorithmic pricing
+
+* Selected papers (UvA / Calvano et al / ACM).
+
+## Week 8: Theory of multi-agent games (Game Theory)
+
+PM 
+
+## Week 9: Programming multi-agent ML using Rllib
+
+https://github.com/vermashresth/MARL-medium (PPO algorithm)
+https://gitlab.aicrowd.com/flatland/flatland
+https://github.com/social-dilemma/multiagent
+https://github.com/eugenevinitsky/sequential_social_dilemma_games
+
+## Week 10: Application: AI economist
 
 
-### Computing: Environments
-
-* Mastering the Game of Sungka from Random Play (Mancala variant)
-
-https://github.com/baudm/sungka-ai
-
-1) OpenAI Gym environment for Sungka
-2) Reward formulation which penalizes actions resulting in
-high opponent scores
-3) Fast-converging and stable training algorithm
-
-* [Pommerman](https://www.pommerman.com)
-
-The game is Pommerman, a variant of the famous Bomberman. There are four agents, power ups, and bombs galore in three modes. In FFA, enter an agent and be the last hero standing.
-
-* [Fantasy Football AI](https://github.com/njustesen/ffai) (FFAI, OpenAI Gym environment)
-
-Blood Bowl: A New Board Game Challenge and Competition for AI.
-
-[Deep Reinforcement Learning in Strategic Multi-Agent Games: the case of No-Press Diplomacy](https://pdfs.semanticscholar.org/51a6/1224d2c4ab9bfa36fa481f0c934fae15a36c.pdf)
-
-This appears an example on multi agent games in OpenAI gym.
-
+Topics not yet addressed: Functional Approximation using deep learning.
 
