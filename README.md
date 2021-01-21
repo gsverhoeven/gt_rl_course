@@ -60,21 +60,23 @@ Here we code up the simple bandit algorithm of p 32 in Sutton & Barto, as well a
 
 * Watch [Lecture 3 of David Silver](https://www.youtube.com/watch?v=Nd1-UUMVfz4)
 
-* Exercise: Frozen Lake dynamic Programming Jupyter notebook.
+* Exercise: Udacity Notebook for solving FrozenLake using Dynamic Programming.
 
-(Denny Britz github repo has the Gridworld and Gamblers Ruin envs from the book, no Car Rental found yet)
+* Optional: Apply DP functions to JacksCarRental Gym environment. (https://github.com/gsverhoeven/gym_jcr)
 
-## Week 5: Monte Carlo
+## Week 5: Monte Carlo (MC) control
 
-* Chapter 5
+* Read selected paragraphs from Chapter 5
 
-* Black jack env.
+* Exercise: Udacity Notebook for solving the BlackJack env using MC control.
 
-## Week 6: Temporal difference learning
+## Week 6: Q-learning
 
-* Chapter 6
+* Read selected paragraphs from Chapter 6
 
-* Cliff environment.
+* Exercise: Code up Q-learning with fixed small epsilon, apply this to FrozenLake / BlackJack / JacksCarRental Env.
+
+* Optional: Udacity Notebook on temporal difference (TD) methods (CliffWalking environment).
 
 ## Week 7: Economic application: algorithmic pricing
 
