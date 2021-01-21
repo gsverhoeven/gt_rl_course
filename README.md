@@ -86,10 +86,13 @@ PM
 
 ## Week 9: Programming multi-agent ML using Rllib
 
-https://github.com/vermashresth/MARL-medium (PPO algorithm)
-https://gitlab.aicrowd.com/flatland/flatland
-https://github.com/social-dilemma/multiagent
-https://github.com/eugenevinitsky/sequential_social_dilemma_games
+* https://github.com/vermashresth/MARL-medium (PPO algorithm)
+
+* https://gitlab.aicrowd.com/flatland/flatland
+
+* https://github.com/social-dilemma/multiagent
+
+* https://github.com/eugenevinitsky/sequential_social_dilemma_games
 
 ## Week 10: Application: AI economist
 
