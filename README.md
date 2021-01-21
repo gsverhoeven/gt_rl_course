@@ -78,7 +78,7 @@ Here we code up the simple bandit algorithm of p 32 in Sutton & Barto, as well a
 
 * Optional: Udacity Notebook on temporal difference (TD) methods (CliffWalking environment).
 
-## Week 7: Economic application: algorithmic pricing
+## Week 7: Economic application of Q-learning: algorithmic pricing
 
 * Selected papers (UvA / Calvano et al / ACM).
 
