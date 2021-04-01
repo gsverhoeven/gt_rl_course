@@ -43,7 +43,7 @@ Example: pick a market, reward is units sold in a market.
 
 * Exercise: work through the [OpenAI Gym tutorial](https://gym.openai.com/docs/)
 
-* Exercise: [Bandits_in_gym](week_2/bandits_gym.md) 
+* Exercise: [Bandits_in_gym](week_2/gym_bandits.ipynb) 
 Here we code up the simple bandit algorithm of p 32 in Sutton & Barto, as well as the UCB variant.
 
 ## Week 3: Theory: Markov Decision Processes (MDPs)
@@ -60,44 +60,34 @@ Here we code up the simple bandit algorithm of p 32 in Sutton & Barto, as well a
 
 * Watch [Lecture 3 of David Silver](https://www.youtube.com/watch?v=Nd1-UUMVfz4)
 
-* Exercise: Udacity Notebook for solving FrozenLake using Dynamic Programming.
+* Exercise: [Udacity Notebook](week_4/Dynamic_Programming_FrozenLake.ipynb) for solving FrozenLake using Dynamic Programming.
 
-* Optional: Apply DP functions to JacksCarRental Gym environment. (https://github.com/gsverhoeven/gym_jcr)
+* Optional: Apply DP functions to [JacksCarRental Gym environment](https://github.com/gsverhoeven/gym_jcr)
 
 ## Week 5: Monte Carlo (MC) control
 
 * Read selected paragraphs from Chapter 5
 
-* Exercise: Udacity Notebook for solving the BlackJack env using MC control.
+* Exercise: [Udacity Notebook](week_5/Monte_carlo.ipynb) for solving the BlackJack env using MC control.
 
 ## Week 6: Q-learning
 
 * Read selected paragraphs from Chapter 6
 
-* Exercise: Code up Q-learning with fixed small epsilon, apply this to FrozenLake / BlackJack / JacksCarRental Env.
-
-* Optional: Udacity Notebook on temporal difference (TD) methods (CliffWalking environment).
+* Exercise: [Udacity Notebook](week_6/Temporal_Difference.ipynb) on temporal difference (TD) methods (CliffWalking environment).
 
 ## Week 7: Economic application of Q-learning: algorithmic pricing
 
-* Selected papers (UvA / Calvano et al / ACM).
+* [Selected papers](week_7) (ACM, Calvano et al). 
+* Presentation by Jan Svitak (ACM)
 
-## Week 8: Theory of multi-agent games (Game Theory)
+## Week 8: Programming multi-agent ML using PettingZoo
 
-PM 
-
-## Week 9: Programming multi-agent ML using Rllib
-
-* https://github.com/vermashresth/MARL-medium (PPO algorithm)
-
-* https://gitlab.aicrowd.com/flatland/flatland
-
-* https://github.com/social-dilemma/multiagent
-
-* https://github.com/eugenevinitsky/sequential_social_dilemma_games
-
-## Week 10: Application: AI economist
+* Exercise: [Petting Zoo tutorial](week_8/marl_tictactoe.ipynb) using the Tic-Tac-Toe two player environment.
 
 
-Topics not yet addressed: Functional Approximation using deep learning.
+
+
+
+
 
