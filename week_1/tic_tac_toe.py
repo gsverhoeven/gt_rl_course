@@ -316,7 +316,7 @@ def compete(turns):
     player1_win = 0.0
     player2_win = 0.0
     for _ in range(turns):
-        winner = judger.play()
+        winner = judger.play(print_state = True)
         if winner == 1:
             player1_win += 1
         if winner == -1:
@@ -334,7 +334,7 @@ def play():
         player2 = Player(epsilon=0.0)
         judger = Judger(player1, player2)
         player2.load_policy()
-        winner = judger.play()
+        winner = judger.play(print_state = True)
         if winner == player2.symbol:
             print("You lose!")
         elif winner == player1.symbol:
@@ -344,8 +344,8 @@ def play():
 
 
 if __name__ == '__main__':
-    train(epochs=int(1e5))
+    #train(epochs=int(1e5))
     compete(int(1e3))
-    play()
+    #play()
 
 
