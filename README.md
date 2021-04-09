@@ -81,9 +81,10 @@ Here we code up the simple bandit algorithm of p 32 in Sutton & Barto, as well a
 * [Selected papers](week_7) (ACM, Calvano et al). 
 * Presentation by Jan Svitak (ACM)
 
-## Week 8: Programming multi-agent ML using PettingZoo
+## Week 8: Programming multi-agent RL using PettingZoo
 
-* Exercise: [Petting Zoo tutorial](week_8/marl_tictactoe.ipynb) using the Tic-Tac-Toe two player environment.
+* Exercise 1: [PettingZoo introductory tutorial](week_8/marl_tictactoe.ipynb) using the Tic-Tac-Toe two player environment.
+* Exercise 2: [PettingZoo Q-learning tutorial](week_8/marl_tictactoe_pt2.ipynb) using the Tic-Tac-Toe two player environment.
 
 
 
